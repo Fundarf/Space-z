@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1, h2, h3{
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+header{
+    height: 699px;
+    background: #222222;
+}
+
+.advantage{
+    padding-top: 85px;
+    min-height: 321px;
+    background: #131313;
+    color: #D4D4D4;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.advantage-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.advantage-item p{
+    margin-top: 34px;
+}
+
+.content{
+    height: 808px;
+    background: #ffffff;
+    padding-top: 80px;
+}
+
+.content p{
+    font-family: "Verdana";
+    font-size: 15px;
+}
+
+.content-description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-text{
+    margin-left: 65px;
+}
+
+.content-advice{
+    margin-top: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-advice ul{
+    /* list-style-position: inside; */
+    margin-left: 18px;
+}
+
+.content-advice li{
+    color: #FFCB06;
+    font-size: 20px;
+}
+
+.content-advice li span{
+    color: black;
+    font-family: "Verdana";
+    font-size: 15px;
+}
+
+.form{
+    height: 477px;
+    background: #F0F0F0;
+    padding-top: 100px;
+}
+
+.form-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-text p{
+    margin-top: 60px;
+}
+
+.form input[type="text"]{
+    color: black;
+    padding-left: 24px;
+    border: none;
+}
+
+.form input[type="text"]::placeholder{
+    color: black;
+    font-family: "Verdana";
+}
+
+.form-big-room{
+    height: 166px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-little-room{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-big-input{
+    width: 440px;
+    height: 50px;
+}
+
+.form-little-input{
+    width: 215px;
+    height: 50px;
+}
+
+.form-button-send{
+    color: white;
+    margin-top: 46px;
+    border: none;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    width: 215px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.table{
+    height: 468px;
+    background: #222222;
+}
+
+footer{
+    height: 354px;
+    background: #131313;
+}
