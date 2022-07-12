@@ -26,6 +26,16 @@ header{
     background: #222222;
 }
 
+header ul{
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li{
+    list-style-type: none;
+    color: #D4D4D4;
+}
+
 .advantage{
     padding-top: 85px;
     min-height: 321px;
@@ -209,4 +219,67 @@ td, th{
 footer{
     height: 354px;
     background: #131313;
+    padding-top: 60px;
+}
+
+.footer-flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-company{
+    color: #D4D4D4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+}
+
+.footer-company p{
+    margin-left: 15px;
+}
+
+.footer-p{
+    color: #555;
+    margin-top: 110px;
+}
+
+.footer-content{
+    width: 698px;
+    padding-top: 18px;
+}
+
+.footer-content> ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-content h3+ul{
+    margin-top: 58px;
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
+footer h3{
+    color: #D4D4D4;
+}
+
+footer h3::after{
+    content: '';
+    height: 1px;
+    width: 180px;
+    display: block;
+    background-color: #555;
+    margin-top: 12px;
+}
+
+footer li{
+    color: #888;
 }
