@@ -24,6 +24,36 @@ h1, h2{
 header{
     height: 699px;
     background: #222222;
+    padding-top: 54px;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-menu1{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-menu1 ul{
+    width: 320px;
+    margin-left: 62px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu2 ul{
+    padding-top: 30px;
+    width: 58px;
+    height: 16.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 header ul{
@@ -34,6 +64,40 @@ header ul{
 header ul li{
     list-style-type: none;
     color: #D4D4D4;
+}
+
+.header-content{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content-text{
+    padding-left: 129px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content-text h1{
+    color: white;
+}
+
+.header-content-text p{
+    color: #D4D4D4;
+}
+
+.find-tour-button{
+    width: 240px;
+    height: 50px;
+    background: #FFCB06;
+    border-radius: 25px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .advantage{
@@ -88,7 +152,6 @@ header ul li{
 }
 
 .content-advice ul{
-    /* list-style-position: inside; */
     margin-left: 18px;
 }
 
