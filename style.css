@@ -47,6 +47,10 @@ header{
     align-items: center;
 }
 
+.nav-menu1 li:hover{
+    color: #fff;
+}
+
 .nav-menu2 ul{
     padding-top: 30px;
     width: 58px;
@@ -98,6 +102,11 @@ header ul li{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.find-tour-button:link, .find-tour-button:visited{
+    color: black
 }
 
 .advantage{
