@@ -1,0 +1,74 @@
+header {
+  padding: 0 0 30px 0;
+}
+@media (max-width: 600px) {
+  header .container {
+    padding-left: 0;
+  }
+}
+header .burger {
+  position: fixed;
+  display: none;
+  width: 100vw;
+  top: 0;
+  z-index: 1;
+}
+@media (max-width: 600px) {
+  header .burger {
+    display: block;
+  }
+}
+header .burger .burgerLine {
+  height: 50px;
+  position: absolute;
+  width: 100vw;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+header .burger .burgerLine .burgerButton {
+  background-color: inherit;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 15px;
+}
+header .burger .burgerLine .burgerButton .line {
+  display: block;
+  background-color: white;
+  height: 0.5px;
+  width: 20px;
+}
+header .burger .info {
+  text-align: center;
+  color: white;
+  background-color: rgb(27, 27, 27);
+  transform: translateY(-50vh);
+  transition-duration: 1s;
+}
+header .burger .info .info-href {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+header .burger .info .info-href img {
+  transition-duration: 1s;
+}
+header .burger .info .info-href img:hover {
+  transform: scale(1.5);
+  transition-duration: 1s;
+}
+header .burger .info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+header .burger .infoActive {
+  transform: translateY(50px);
+  transition-duration: 650ms;
+}/*# sourceMappingURL=burgerMenu.css.map */
